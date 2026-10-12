@@ -2,6 +2,10 @@
 
 These are tools I use to correct and organize metadata in my MP3/M4A collections.
 
+### ai slop warning
+
+These tools were generated with the free version of Claude at various moments, and in a couple of cases, re-prompted until working. Generally these were one-off script generations with little care made to polish the code or interface.
+
 No test coverage, no guarantee that these will not screw up your files. I've still made care to only include scripts that worked for me and did not mess up my data.
 
 ## Requirements
