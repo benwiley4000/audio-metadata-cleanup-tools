@@ -8,6 +8,8 @@ These tools were generated with the free version of Claude at various moments, a
 
 No test coverage, no guarantee that these will not screw up your files. I've still made care to only include scripts that worked for me and did not mess up my data.
 
+This readme I wrote by hand though!
+
 ## Requirements
 
 - NodeJS for most scripts
