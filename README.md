@@ -142,6 +142,6 @@ This will update the headers for all the MP3 files that match a corresponding fl
 
 ## Notes about other tools I use
 
-- To fix other problems with MP3 metadata I use [Puddletag](https://github.com/puddletag/puddletag) which can run either locally or on a server via a docker container (with streamed UI).
+- To fix other problems with MP3 metadata and album artwork I use [Puddletag](https://github.com/puddletag/puddletag) which can run either locally or on a server via a docker container (with streamed UI).
 - As mentioned, to convert individual flacs to MP3 I use [Sound Converter](https://soundconverter.org/)
 - To convert whole-CD flacs to individual MP3s I use [Flacon[(https://flacon.github.io/)
