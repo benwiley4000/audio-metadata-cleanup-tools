@@ -107,7 +107,9 @@ node ./scripts/renumber-m4a.js "/path/to/LibraryRoot" --apply    # actually do i
 
 ## Restoring gapless playback info for MP3s converted from FLAC
 
-On Linux I use the Sound Converter app to convert flacs to MP3, but it doesn't properly create the LAME header that includes information for gapless players (delay + padding). In the ./gapless-restore folder I have a script that corrects this, but it requires you to organize folders of source flacs and converted MP3s, so the MP3s can be corrected by cross-referencing the FLACs. The mp3 and flac files need to have the same names (ignoring the extensions).
+On Linux I use the Sound Converter app (which I recommend) to convert flacs to MP3, but it doesn't properly create the LAME header that includes information for gapless players (delay + padding). (NOTE: this bug has been reported and is being fixed). This can be an issue with other conversion programs as well.
+
+In the ./gapless-restore folder I have a script that corrects this, but it requires you to organize folders of source flacs and converted MP3s, so the MP3s can be corrected by cross-referencing the FLACs. The mp3 and flac files need to have the same names (ignoring the extensions).
 
 Usage:
 
