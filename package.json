@@ -1,0 +1,21 @@
+{
+  "name": "mp3-organizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "consolidate": "node consolidate.js",
+    "renumber-m4a": "node renumber-m4a.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-id3": "^0.2.9",
+    "node-taglib-sharp": "^6.0.3"
+  }
+}
