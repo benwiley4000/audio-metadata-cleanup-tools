@@ -26,7 +26,7 @@ This identifies all the MP3 files in a directory whose ID3 metadata includes fan
 Usage:
 
 ```sh
-node check-charset.js <path-to-music-library-root> 
+node ./scripts/check-charset.js <path-to-music-library-root> 
 ```
 
 ### `list-tags.js`
@@ -36,7 +36,7 @@ This lists id3 tags by track for a folder full of MP3s
 Usage:
 
 ```sh
-node list-tags.js <path-to-music-library-root> 
+node ./scripts/list-tags.js <path-to-music-library-root> 
 ```
 
 ## Tools for flattening track numbering for multi-disc albums
@@ -67,8 +67,8 @@ LibraryRoot/
 Usage: 
 
 ```
-node consolidate.js "/path/to/LibraryRoot"           # dry run (default, no changes)
-node consolidate.js "/path/to/LibraryRoot" --apply    # actually do it
+node ./scripts/consolidate.js "/path/to/LibraryRoot"           # dry run (default, no changes)
+node ./scripts/consolidate.js "/path/to/LibraryRoot" --apply    # actually do it
 ```
 
 ### `fix-disc-numbering.js`
@@ -76,8 +76,8 @@ node consolidate.js "/path/to/LibraryRoot" --apply    # actually do it
 This does exactly the same thing as consolidate.js but for a folder of multi-disc MP3s that are already flattened, NOT organized into subfolders.
 
 ```
-node fix-disc-numbering.js "/path/to/LibraryRoot"           # dry run (default, no changes)
-node fix-disc-numbering.js "/path/to/LibraryRoot" --apply    # actually do it
+node ./scripts/fix-disc-numbering.js "/path/to/LibraryRoot"           # dry run (default, no changes)
+node ./scripts/fix-disc-numbering.js "/path/to/LibraryRoot" --apply    # actually do it
 
 ```
 
@@ -88,8 +88,8 @@ After you renumber a bunch of multi-disc tracks (or perhaps even in some other c
 Usage:
 
 ```sh
-./padall.sh "/path/to/LibraryRoot" # dry run
-./padall.sh "/path/to/LibraryRoot" --write # do it
+./scripts/./padall.sh "/path/to/LibraryRoot" # dry run
+./scripts/./padall.sh "/path/to/LibraryRoot" --write # do it
 ```
 
 ### `renumber-m4a.js`
@@ -100,8 +100,8 @@ Usage:
 
 
 ```
-node renumber-m4a.js "/path/to/LibraryRoot"           # dry run (default, no changes)
-node renumber-m4a.js "/path/to/LibraryRoot" --apply    # actually do it
+node ./scripts/renumber-m4a.js "/path/to/LibraryRoot"           # dry run (default, no changes)
+node ./scripts/renumber-m4a.js "/path/to/LibraryRoot" --apply    # actually do it
 
 ```
 
