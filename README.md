@@ -88,8 +88,8 @@ After you renumber a bunch of multi-disc tracks (or perhaps even in some other c
 Usage:
 
 ```sh
-./scripts/./padall.sh "/path/to/LibraryRoot" # dry run
-./scripts/./padall.sh "/path/to/LibraryRoot" --write # do it
+./scripts/padall.sh "/path/to/LibraryRoot" # dry run
+./scripts/padall.sh "/path/to/LibraryRoot" --write # do it
 ```
 
 ### `renumber-m4a.js`
